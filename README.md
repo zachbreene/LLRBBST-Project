@@ -26,7 +26,7 @@ This is the main file for all methods of the LLRBBST. </n>
 
 ### LLRBBST.h
 
-This file is the header file that contains the calls for the node class and the tree class of this implementation, as well as calling the methods made in LLRBBST.cpp. The node class calls two overloading constructors, and a destructor, while the tree class calls the methods provided in LLRBBST.cpp. The nodes are pairs of data, the first being a string and the second being a char. Alongside that a variable "count" detects the amount of duplicate words in the given data.
+This file is the header file that contains the calls for the node class and the tree class of this implementation, as well as calling the methods made in LLRBBST.cpp. The node class calls an overloading constructor and a destructor, while the tree class calls the methods provided in LLRBBST.cpp. The nodes are pairs of data, the first being a string and the second being a char. Alongside that a variable "count" detects the amount of duplicate words in the given data.
 
 
 ### main.cpp
