@@ -31,6 +31,7 @@ This file is the header file that contains the calls for the node class and the 
 
 ### main.cpp
 
+This file is composed of the readFile() function and a main to give the implementation a text file to convert into a tree. You will see in the main a line that has readFile("somebody.txt"). Depending on what your txt file is called, you must change what is between the quotation marks. The readFile() function reads from a txt file of words that are separated by a space, and creates it into an LLRBBST. After creating it into a tree, readFile() writes the tree to a DOT file for visualization, and deletes the tree to prevent data leakage. Essentially, the readFile() function is the call of the LLRBBST implementation.
 
 ### somebody.txt
 
