@@ -11,17 +11,17 @@ My task for this project was to create an implementation of the Left Leaning Red
 
 This is the main file for all methods of the LLRBBST. </n>
 
-&emsp; &emsp; **Insertion Method**
+&emsp; ***Insertion Method***
 
-&emsp; &emsp; &emsp; &emsp; Placeholder
+* The insertion method is a function called insertNode(string). This function creates a node to insert and stores the given string. If the string inserted is not a duplicate, the tree will perform an autobalance. If any duplicate words are detected, the "count" variable is increased by 1 per duplicate, with "count" starting at 1 in the overloaded constructor.  
 
-&emsp; &emsp; **Search Method**
+&emsp; ***Search Method***
 
-&emsp; &emsp; &emsp; &emsp; Placeholder
+* Placeholder
 
-&emsp; &emsp; **DOT File Print**
+&emsp; ***DOT File Print***
 
-&emsp; &emsp; &emsp; &emsp; Placeholder
+* Placeholder
 
 
 ### LLRBBST.h
