@@ -17,7 +17,7 @@ This is the main file for all methods of the LLRBBST. </n>
 
 &emsp; ***Search Method***
 
-* The search method is a function called searchNode(string). This function finds the node of the provided string that it is stored in, and it returns a pointer to that node.
+* The search method is a function called searchNode(string). This function goes through the tree and finds the node of the provided string that it is stored in, and it returns a pointer to that node. If it doesn't exist, a null pointer is returned.
 
 &emsp; ***DOT File Print***
 
