@@ -21,7 +21,7 @@ This is the main file for all methods of the LLRBBST. </n>
 
 &emsp; ***DOT File Print***
 
-* The function printDOT is the method that prints the generated tree into a DOT file format. Using a website like [edotor.net](https://edotor.net/), you can copy and paste the DOT file format and see the visual of your LLRBBST.
+* The function DOTFile() converts the generated LLRBBST into a DOT file format. The function printDOT is the method that prints out the DOT file format. Using a website like [edotor.net](https://edotor.net/), you can copy and paste the DOT file format and see the visual of your LLRBBST.
 
 
 ### LLRBBST.h
