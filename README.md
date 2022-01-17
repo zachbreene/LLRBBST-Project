@@ -13,7 +13,7 @@ This is the main file for all methods of the LLRBBST. </n>
 
 &emsp; ***Insertion Method***
 
-* The insertion method is a function called insertNode(string). This function creates a node to insert and stores the given string. If the string inserted is not a duplicate, the tree will perform an autobalance. If any duplicate words are detected, the "count" variable is increased by 1 per duplicate, with "count" starting at 1 in the overloaded constructor.  
+* The insertion method is a function called insertNode(string). This function creates a node to insert and stores the given string, and inserts the node where it should be. If the string inserted is not a duplicate, the tree will perform an autobalance up to the root. If any duplicate words are detected, the "count" variable is increased by 1 per duplicate, with "count" starting at 1 in the overloaded constructor.  
 
 &emsp; ***Search Method***
 
