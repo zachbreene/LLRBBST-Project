@@ -17,11 +17,11 @@ This is the main file for all methods of the LLRBBST. </n>
 
 &emsp; ***Search Method***
 
-* Placeholder
+* The search method is a function called searchNode(string). This function finds the node of the provided string that it is stored in, and it returns a pointer to that node.
 
 &emsp; ***DOT File Print***
 
-* Placeholder
+* The function printDOT is the method that prints the generated tree into a DOT file format. Using a website like [edotor.net](https://edotor.net/), you can copy and paste the DOT file format and see the visual of your LLRBBST.
 
 
 ### LLRBBST.h
